@@ -1,0 +1,18 @@
+"dynamodb": {
+    "Keys": {
+        "Id": {
+            "N": "101"
+        }
+    },
+    "NewImage": {
+        "Message": {
+            "S": "New item!"
+        },
+        "Id": {
+            "N": "101"
+        }
+    },
+    "SequenceNumber": "111",
+    "SizeBytes": 26,
+    "StreamViewType": "NEW_AND_OLD_IMAGES"
+}
